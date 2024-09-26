@@ -13,6 +13,6 @@ Insert into employees (emp_id, emp_name)
  (3, "Chitiz Vaidya"),
  (4, "Shikshya Shrestha"), 
  (5, "Srijana Thapa"),
- (6,"Samundra Adhikari")
+ (6,"Samundra Adhikari");
  
  select * from employees;
