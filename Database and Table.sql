@@ -17,6 +17,10 @@ create table employees(
     foreign key (manager_id) references employees(emp_id) -- self-referencing
 );
 
+create table student();
+create table courses();
+create table enrollment();
+
 insert into departments(department_id, department_name)
 values
 	(1, 'Sales'),
