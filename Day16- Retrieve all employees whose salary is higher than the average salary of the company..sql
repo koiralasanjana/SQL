@@ -3,4 +3,3 @@
  select emp_name, emp_salary from employees
  where emp_salary > 
  (select avg(emp_salary) from employees)
- 
